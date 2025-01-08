@@ -29,7 +29,7 @@ MediaBrowser can display one or more images or videos by providing either UIImag
     :git => 'https://github.com/younatics/MediaBrowser.git', 
     :tag => s.version.to_s }
   s.source_files     = 'MediaBrowser/*.swift'
-  s.resources        = "MediaBrowser/*.xcassets"
+  s.resource_bundles = "MediaBrowser/*.xcassets"
 
   s.ios.deployment_target = '8.1'
 
